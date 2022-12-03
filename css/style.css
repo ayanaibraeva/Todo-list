@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+header{
+    background: rgba(0, 0, 0, .8);
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.navbar h1{
+    color:bisque;
+    
+}
+
+.navbar div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar div h2{
+    color:white;
+}
+
+.navbar div button{
+    padding: 15px 0;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    background-color: red;
+    color: wheat;
+    font-size: 20px;
+    box-shadow: 0 0 5px red;
+    cursor: pointer;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.card form input{
+    width: 80%;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+}
+
+.card form button{
+    width: 40%;
+    padding: 15px 0;
+    border: 0;
+    border-radius: 10px;
+    background-color: green;
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    margin: 5px 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.todo_card{
+    background-color: white;
+    width: 31%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.todo_card img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.inline_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline_buttons button{
+    width: 40%;
+    padding: 15px 0;
+    border-radius:10px ;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.inline_buttons button:nth-child(1){
+    background-color: rgb(134, 134, 218);
+}
+
+.inline_buttons button:nth-child(2){
+    background-color: rgb(98, 98, 112);
+}
